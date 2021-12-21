@@ -11,7 +11,7 @@ namespace LTQL_1721050102.Models
             : base("name=LTQLDbcontext")
         {
         }
-
+        public virtual DbSet<LopHoc102>LopHoc102s { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
